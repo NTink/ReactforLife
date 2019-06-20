@@ -7,7 +7,7 @@ constructor(props){
     this.state = {
       city: '',
       restaurants: [],
-      isLoading: false
+      isloading: false
     };
 
     this.Url = `http://opentable.herokuapp.com/api/restaurants?`;
