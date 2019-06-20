@@ -60,7 +60,7 @@ render() {
           <h4 className="center">Restaurants Available</h4>
           {restaurantList}
         </div>
-          <div className={`show-loader ${this.state.isLoading ? "" : "hide"}`}>
+          <div className={`show-loader ${this.state.isloading ? "" : "hide"}`}>
           </div>
       </React.Fragment>
     )
